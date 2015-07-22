@@ -13,8 +13,12 @@
 
 # 3. 链接过程
 
-## gulp develop触发webpack
-	打包所有js到tmp/app/app.js
+## gulp develop
+	配置webpack
+	触发tasks/dev
+	触发tasks/build
+	此处略写dev和build的功能
+	触发webpack打包所有js到tmp/app/app.js
 
 ## webpack找到client/app/entry.coffee开始加载
 	coffee 	用coffee loader转换成js
