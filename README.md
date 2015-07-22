@@ -60,7 +60,8 @@
 ## home.jade里调用controller缩写vm
 	使用controller定义的@name和@getPrefix
 
-## index.html里会自动加载bower的css和js，并不会对npm的自动加载，所以需要手动调用
+## index.html
+	自动加载bower的css和js，并不会对npm的自动加载，所以需要手动调用
 	bower:css到endbower是加载bower css
 	inject:lib:css是加载vendor里的css
 
